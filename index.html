@@ -4,10 +4,44 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/assets//css//style.css">
-	<title>Portfolio</title>
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/fontawesome.css">
+	<title>Portfolio - Bootstrap and SASS</title>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-dark menu">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="/assets/images/logo.png" alt="Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+				<button type="button" class="rounded-pill btn-rounded">+13 21234-4321 <span><i class="fa-solid fa-phone"></i></span> </button>
+			</div>
+		</div>
+	</nav>
 	
 	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
